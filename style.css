@@ -11,13 +11,10 @@ header{
     background-color: maroon;
     padding: 10px;      
 }
-nav a{
-    color: black;
+nav{
+    margin-top: 10px;
 }
-nav a{
-    color:black;
-    text-decoration: none;
-}
+
 nav a{
     color: black;
     text-decoration: none;
@@ -27,16 +24,10 @@ section{
     padding: 20px;
 }
 h2{
-    margin-bottom: 14px
-}
-section{
-    padding: 20px;
-}
-h2{
     margin-bottom: 15px;
-}
+        
 section:first-of-type{
-    text-align: center;
+    text-align: centre;
     padding: 20px 20px;
     background-color: #f4f4f4;
 }
@@ -48,19 +39,25 @@ button{
     cursor: pointer;
 }
 div{
-    border: 1px maroon;
+    border: 1px solid maroon;
     padding: 20px;
     margin: 10px 0;
+    border-radius: 8px;
+}
+
 }
 footer{
     background-color:maroon;
     color:black;
-    text-align: center;
+    text-align: centre;
     padding: 15px;
-}textarea{
+    
+input,
+textarea{
     width: 100%;
     padding: 10px;
-    margin-top: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 button{
