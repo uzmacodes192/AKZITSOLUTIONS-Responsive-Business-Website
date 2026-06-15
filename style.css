@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    box-sizing:border box;
+    box-sizing:border-box;
 }
 body{
     font-family: Arial, sans-serif;
@@ -9,8 +9,7 @@ body{
 }
 header{
     background-color: maroon;
-    padding: 10px;
-    margin: 5px;       
+    padding: 10px;      
 }
 nav a{
     color: black;
@@ -22,7 +21,7 @@ nav a{
 nav a{
     color: black;
     text-decoration: none;
-    margin-right: auto;
+    margin-right: 15px;
 }
 section{
     padding: 20px;
@@ -36,9 +35,7 @@ section{
 h2{
     margin-bottom: 15px;
 }
-section
-
- first-of-type{
+section:first-of-type{
     text-align: center;
     padding: 20px 20px;
     background-color: #f4f4f4;
@@ -73,8 +70,7 @@ button{
     border: none;
 }
 body{
-    max-width: 1200px;
-    margin: auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
     }
-
 
